@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Gerador de histórias engraçadas</title>
+
+    <style>
+
+    body {
+      font-family: helvetica, sans-serif;
+      width: 350px;
+    }
+
+    label {
+      font-weight: bold;  
+    }
+
+    div {
+      padding-bottom: 20px;
+    }
+
+    input[type="text"] {
+      padding: 5px;
+      width: 150px;
+    }
+
+    p {
+      background: #7d7e78;
+      color: #000000;
+      padding: 10px;
+      visibility: hidden;
+    }
+    input{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <label for="customname">Enter com seu nome para personalizar:</label>
+      <input id="customname" type="text" placeholder="">
+    </div>
+    <div>
+      <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+      <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+    </div>
+    <div>
+      <button class="randomize">Gerar história aleatória</button>
+    </div>
+    <p class="story"></p>
+    <script src="main.js"></script>
+
+    
+  </body>
+</html>
