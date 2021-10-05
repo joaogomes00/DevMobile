@@ -1,3 +1,5 @@
+// João Pedro Gomes de Lemos
+// 0050016060
 import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
