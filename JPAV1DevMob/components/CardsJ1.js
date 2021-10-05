@@ -1,3 +1,5 @@
+// João Pedro Gomes de Lemos
+// 0050016060
 import React, { useState } from 'react';
 import { Button,Pressable , StyleSheet, Text, TextInput, View,Image,KeyboardAvoidingView } from 'react-native';
 import { Audio } from 'expo-av';
