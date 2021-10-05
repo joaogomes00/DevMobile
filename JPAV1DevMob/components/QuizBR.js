@@ -1,3 +1,5 @@
+// João Pedro Gomes de Lemos
+// 0050016060
 import * as React from 'react';
 import { StyleSheet, Animated, View,Text   } from 'react-native';
 import CardsJ1 from  './CardsJ1.js'
